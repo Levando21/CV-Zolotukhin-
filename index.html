@@ -1,13 +1,266 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="/vite.svg" />
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+			integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>CV Zolotukhin Lev</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="left-side">
+				<div class="profile-title">
+					<div class="profile-photo">
+						<img
+							src="./img/photo.jpg"
+							width = "200"
+							height = "300"
+							class="myphoto" />
+					</div>
+
+					<h2>Zolotukhin Lev <span>Student</span></h2>
+				</div>
+
+				<div class="profile-contact-info">
+					<h3 class="contact-title">General information</h3>
+					<ul class="contact-info">
+						<li class="contact-item">
+							<span class="icon">
+								<i
+									class="fa fa-phone"
+									aria-hidden="true"></i>
+							</span>
+							<span class="contact-text">
+								<a href="tel:+491792014974">+49 179 201 49 74</a>
+							</span>
+						</li>
+
+						<li class="contact-item">
+							<span class="icon">
+								<i
+									class="fa fa-envelope-o"
+									aria-hidden="true"></i>
+							</span>
+							<span class="contact-text">
+								<a href="mailto:leozolotukhin@gmail.com">leozolotukhin@gmail.com</a>
+							</span>
+						</li>
+
+						<li class="contact-item">
+							<span class="icon">
+								<i
+									class="fa fa-linkedin"
+									aria-hidden="true"></i>
+							</span>
+							<span class="contact-text">
+								<a
+									href="https://www.linkedin.com/in/lev-zolotukhin-0197a8306/"
+									target="_blank">
+									Lev Zolotukhin
+								</a>
+							</span>
+						</li>
+
+						<li class="contact-item">
+							<span class="icon">
+								<i
+									class="fa fa-instagram"
+									aria-hidden="true"></i>
+							</span>
+							<span class="contact-text">
+								<a
+									href="https://www.instagram.com/bakaluvvr?igsh=MWhyY2ZraXBtZThlYw%3D%3D&utm_source=qr"
+									target="_blank">
+									bakaluvvr
+								</a>
+							</span>
+						</li>
+
+						<li class="contact-item">
+							<span class="icon">
+								<i
+									class="fa fa-birthday-cake"
+									aria-hidden="true"></i>
+							</span>
+							<span class="contact-text">
+								<a
+									target="_blank"
+									id="cifer">
+									27.07.2004
+								</a>
+							</span>
+						</li>
+
+						<li class="contact-item">
+							<span class="icon">
+								<i
+									class="fa fa-globe"
+									aria-hidden="true"></i>
+							</span>
+							<span class="contact-text">
+								<a
+									href="https://earth.google.com/web/@50.4020355,30.53269055,129.12443615a,118540.54285238d,35y,0h,0t,0r/data=CksaSRJDCiUweDQwZDRjZjRlZTE1YTQ1MDU6MHg3NjQ5MzFkMjE3MDE0NmZlGf32deCcOUlAIfW52or9hT5AKgjQmtC40LXQshgCIAE6AwoBMA"
+									target="_blank">
+									Kyiv, Ukraine
+								</a>
+							</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="profile-languages">
+					<h3 class="contact-title">Language skills</h3>
+					<ul class="languages-info">
+						<li class="language-item">
+							<span class="lang-text">English</span
+							><span class="percent"
+								><div
+									class="percent-main"
+									style="width: 85%"></div
+							></span>
+						</li>
+						<li class="language-item">
+							<span class="lang-text">German</span
+							><span class="percent"
+								><div
+									class="percent-main"
+									style="width: 80%"></div
+							></span>
+						</li>
+						<li class="language-item">
+							<span class="lang-text">Ukrainian (Native language)</span
+							><span class="percent"
+								><div
+									class="percent-main"
+									style="width: 100%"></div
+							></span>
+						</li>
+						<li class="language-item">
+							<span class="lang-text">Russian</span
+							><span class="percent"
+								><div
+									class="percent-main"
+									style="width: 100%"></div
+							></span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="profile-contact-info">
+					<h3>Hobbys</h3>
+					<ul class="contact-info">
+						<li class = "contact-item">
+							<span class="icon">
+								<i class="fa fa-bicycle" aria-hidden="true"></i>
+
+							</span>
+							<span class="contact-text"> Ride a bike </span>
+						</li>
+						<li class = "contact-item">
+							<i class="fa fa-video-camera" aria-hidden="true"></i>
+							</span>
+							<span class="contact-text"> Video recording </span>
+						</li>
+						<li class = "contact-item">
+							<span class="icon">
+								<i class="fa fa-music" aria-hidden="true"></i>
+
+							</span>
+							<span class="contact-text"> Electronic music </span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="right-side">
+				<div class="profile-prologue">
+					<h2>Introduction</h2>
+					<p class="prologue-text">
+            At the moment, my professional interests lie in gaining a lot of experience
+						that will be very useful in my life. I chose this strategy
+						 a long time ago at school because it is always worthwhile
+						to engage in new activities and take on new decisions and challenges.
+						
+					</p>
+				</div>
+
+				<div class="profile-education">
+					<h2>Education</h2>
+					<ul>
+						<li>
+							<h3>2011-2021</h3>
+							<p>
+								Specialized school number 17 with extended mathematics lessons
+							</p>
+						</li>
+						<li>
+							<h3>2021-bis jetzt</h3>
+							<p>National Taras Shevchenko University Kiev Kiev (11th grade)</p>
+						</li>
+						<li>
+							<h3>2023 - now</h3>
+							<p>IT course at the "GoIt Ukraine" technical college</p>
+						</li>
+					</ul>
+				</div>
+
+				<div class="profile-work-experience">
+					<h2>Career</h2>
+
+					<ul>
+						<li>
+							<h3>Juni - Juli 2021</h3>
+							<p>Internship at Arup GmbH</p>
+							<p>
+								I have acquired the basic knowledge of reading construction illustrations,
+								team communication and construction software work
+							</p>
+						</li>
+					</ul>
+				</div>
+
+				<div class="profile-skills">
+					<h2>Skills</h2>
+
+					<ul>
+						<li>
+							<h3>Tech skills</h3>
+							<p>JS, HTML, CSS, React, Redux, Python, Excel</p>
+						</li>
+						
+						<li>
+							<h3>Soft-skills</h3>
+							<p>Creativity, reliability, sustainability</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script
+			type="module"
+			src="/main.js"></script>
+	</body>
 </html>
